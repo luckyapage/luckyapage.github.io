@@ -5,6 +5,47 @@
    （tokens / base / header / hero）。改到那些區塊時記得兩邊一起改。
    ========================================================================== */
 
+/* ---------- 0. 字型 ---------- */
+
+/* 自架子集字型：只含本頁用到的字元，全部加起來 232 KiB。
+
+   改過頁面文字後請執行：node tools/build-fonts.mjs  （詳見 README）
+
+   路徑是相對於本檔，所以 @font-face 只能寫在這裡，不要複製到 index.html。 */
+
+@font-face {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fonts/noto-sans-tc-400.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('fonts/noto-sans-tc-700.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('fonts/noto-sans-tc-900.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('fonts/space-grotesk-700.woff2') format('woff2');
+}
+
+
 /* ---------- 1. Design tokens ---------- */
 :root {
   --accent: #F0A81E;

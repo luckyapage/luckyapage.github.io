@@ -8,8 +8,10 @@
 <meta name="description" content="給咖啡廳、小餐館、美甲美睫、寵物美容、健身工作室、補習班的一頁式介紹型官網。NT$3,000 含設計與架設上線，3~5 個工作天交件，終生免維護、無月費。">
 <meta name="theme-color" content="#17130D">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- 字型自架在 assets/fonts/，@font-face 寫在 site.css 第 0 節。
+     這裡先搶下第一屏最吃重的兩個字重，其餘由 site.css 觸發載入。 -->
+<link rel="preload" as="font" type="font/woff2" crossorigin href="assets/fonts/noto-sans-tc-400.woff2">
+<link rel="preload" as="font" type="font/woff2" crossorigin href="assets/fonts/noto-sans-tc-900.woff2">
 
 <!-- 關鍵 CSS：第一屏（header + hero）需要的樣式，內嵌避免多一次來回。
      這段是 assets/site.css 第 1~6 節的副本，改動時請兩邊一起改。 -->
@@ -66,12 +68,6 @@ img{max-width:100%}
 <!-- 完整樣式表：非阻塞載入，載完才套用，不擋首次繪製 -->
 <link rel="preload" as="style" href="assets/site.css" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="assets/site.css"></noscript>
-
-<!-- 字型同樣不擋渲染；先用系統字顯示，字型到了再換 -->
-<link rel="preload" as="style"
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700;900&family=Space+Grotesk:wght@700&display=swap"
-      onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700;900&family=Space+Grotesk:wght@700&display=swap"></noscript>
 
 <!-- 在第一次繪製前決定要不要做捲動進場，避免內容先出現又被藏起來 -->
 <script>
