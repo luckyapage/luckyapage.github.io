@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>阿姨家常麵館 ｜ 台南永康．手工麵與滷味</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet" />
+<style>
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: #FFFCF5; color: #241A14; font-family: "Noto Sans TC", system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+  * { box-sizing: border-box; }
+  a { color: #241A14; text-decoration: none; }
+  a:hover { color: #C0392B; }
+</style>
+</helmet>
+<div style="overflow-x: hidden;">
+  <div style="background: #17130D; color: rgba(255,255,255,.72); font-size: 13px; padding: 8px 20px; text-align: center;">
+    這是「<a href="index.html" style="color: #F0A81E; font-weight: 700;">招牌YA</a>」的示範作品 ｜ 內容為虛構
+  </div>
+
+  <header style="position: sticky; top: 0; z-index: 30; background: #C0392B; color: #fff;">
+    <div style="max-width: 1040px; margin: 0 auto; padding: 12px 20px; display: flex; align-items: center; gap: 18px;">
+      <span style="font-weight: 900; font-size: 19px; letter-spacing: .06em; white-space: nowrap; color: #fff;">阿姨家常麵館</span>
+      <nav style="display: flex; gap: 18px; margin-left: auto; font-size: 14.5px;">
+        <a href="#menu" style="color: rgba(255,255,255,.9);">菜單</a>
+        <a href="#hours" style="color: rgba(255,255,255,.9);">營業時間</a>
+      </nav>
+      <a href="#hours" style="background: #FFE9A8; color: #7A1F16; font-size: 14.5px; font-weight: 900; padding: 9px 16px; border-radius: 3px; white-space: nowrap;" style-hover="background: #FFD873; color: #7A1F16;">訂位 / 外帶</a>
+    </div>
+  </header>
+
+  <section style="background: #C0392B; color: #fff; padding: 10px 20px 70px;">
+    <div style="max-width: 1040px; margin: 0 auto; text-align: center;">
+      <p style="font-size: 14px; letter-spacing: .26em; color: #FFD873; margin: 0;">台南永康 ／ 開店 22 年</p>
+      <h1 style="font-size: clamp(36px, 7vw, 68px); font-weight: 900; line-height: 1.2; margin: 18px 0 0;">今天中午，<br />吃碗麵再走。</h1>
+      <p style="font-size: 17px; line-height: 1.9; color: rgba(255,255,255,.86); max-width: 24em; margin: 20px auto 0;">手工麵、當天現滷。中午 11 點開，賣完就休息，建議早點來。</p>
+      <div style="display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-top: 30px;">
+        <a href="#menu" style="background: #FFE9A8; color: #7A1F16; font-weight: 900; font-size: 17px; padding: 15px 28px; border-radius: 3px; white-space: nowrap;" style-hover="background: #FFD873; color: #7A1F16;">看菜單</a>
+        <a href="#hours" style="border: 1px solid rgba(255,255,255,.5); color: #fff; font-weight: 700; font-size: 17px; padding: 14px 26px; border-radius: 3px; white-space: nowrap;" style-hover="background: rgba(255,255,255,.12); color: #fff;">外帶訂餐</a>
+      </div>
+    </div>
+  </section>
+
+  <section style="max-width: 1040px; margin: -34px auto 0; padding: 0 20px;">
+    <div style="aspect-ratio: 16/7; border-radius: 4px; background: radial-gradient(circle at 50% 52%, #E7C98F 0 12%, transparent 12.5%), radial-gradient(circle at 50% 52%, transparent 12.5%, #F7EFDF 12.5% 26%, transparent 26.5%), radial-gradient(circle at 50% 52%, transparent 26.5%, #C0392B 26.5% 30%, transparent 30.5%), linear-gradient(170deg, #F7EFDF, #EBDCC0);"></div>
+  </section>
+
+  <section id="about" style="max-width: 1040px; margin: 0 auto; padding: 60px 20px 0;">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 36px; align-items: center;">
+      <div>
+        <h2 style="font-size: clamp(26px, 4vw, 38px); font-weight: 900; margin: 0 0 16px;">關於這碗麵</h2>
+        <p style="font-size: 16.5px; line-height: 1.95; color: #4E4238; margin: 0 0 14px;">麵條是附近製麵廠每天早上送來的，<strong>不隔夜</strong>。肉燥每天現做，湯頭用豬骨煮六小時。</p>
+        <p style="font-size: 16.5px; line-height: 1.95; color: #4E4238; margin: 0;">從阿姨接手到現在已經 22 年。口味沒變，價格只調過兩次。</p>
+      </div>
+      <div style="aspect-ratio: 4/3; border-radius: 4px; background: radial-gradient(circle at 62% 46%, #C0392B 0 10%, transparent 10.5%), repeating-linear-gradient(74deg, #EFDFC2 0 9px, #F8F1E2 9px 18px);"></div>
+    </div>
+  </section>
+
+  <section id="menu" style="max-width: 1040px; margin: 0 auto; padding: 66px 20px;">
+    <h2 style="font-size: clamp(26px, 4vw, 38px); font-weight: 900; margin: 0 0 6px;">菜單</h2>
+    <p style="font-size: 15.5px; color: #7A6A5C; margin: 0 0 28px;">大碗加 20 元。內用附贈當日例湯。</p>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 34px;">
+      <div>
+        <h3 style="font-size: 17px; font-weight: 900; color: #C0392B; letter-spacing: .08em; margin: 0 0 14px;">麵食</h3>
+        <div style="display: grid; gap: 12px; font-size: 16.5px;">
+          <div style="display: flex; justify-content: space-between; border-bottom: 1px dashed #E2D6C2; padding-bottom: 10px;"><span>招牌肉燥麵</span><strong>75</strong></div>
+          <div style="display: flex; justify-content: space-between; border-bottom: 1px dashed #E2D6C2; padding-bottom: 10px;"><span>紅燒牛肉麵</span><strong>150</strong></div>
+          <div style="display: flex; justify-content: space-between; border-bottom: 1px dashed #E2D6C2; padding-bottom: 10px;"><span>麻醬乾麵</span><strong>70</strong></div>
+          <div style="display: flex; justify-content: space-between; border-bottom: 1px dashed #E2D6C2; padding-bottom: 10px;"><span>餛飩湯麵</span><strong>90</strong></div>
+        </div>
+      </div>
+      <div>
+        <h3 style="font-size: 17px; font-weight: 900; color: #C0392B; letter-spacing: .08em; margin: 0 0 14px;">滷味與小菜</h3>
+        <div style="display: grid; gap: 12px; font-size: 16.5px;">
+          <div style="display: flex; justify-content: space-between; border-bottom: 1px dashed #E2D6C2; padding-bottom: 10px;"><span>滷蛋</span><strong>15</strong></div>
+          <div style="display: flex; justify-content: space-between; border-bottom: 1px dashed #E2D6C2; padding-bottom: 10px;"><span>滷豆干（三片）</span><strong>30</strong></div>
+          <div style="display: flex; justify-content: space-between; border-bottom: 1px dashed #E2D6C2; padding-bottom: 10px;"><span>燙青菜</span><strong>40</strong></div>
+          <div style="display: flex; justify-content: space-between; border-bottom: 1px dashed #E2D6C2; padding-bottom: 10px;"><span>骨仔肉湯</span><strong>60</strong></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="background: #FFF4DC; padding: 60px 20px;">
+    <div style="max-width: 1040px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px;">
+      <div style="aspect-ratio: 1/1; border-radius: 4px; background: radial-gradient(circle at 50% 50%, #E7C98F 0 16%, transparent 16.5%), radial-gradient(circle at 50% 50%, transparent 16.5%, #FBF6EA 16.5% 34%, transparent 34.5%), radial-gradient(circle at 50% 50%, transparent 34.5%, #C0392B 34.5% 39%, transparent 39.5%), #F4EAD6;"></div>
+      <div style="aspect-ratio: 1/1; border-radius: 4px; background: repeating-linear-gradient(78deg, #EFDFC2 0 8px, #F8F1E2 8px 16px), radial-gradient(circle at 50% 50%, #C0392B 0 12%, transparent 12.5%);"></div>
+      <div style="aspect-ratio: 1/1; border-radius: 4px; background: linear-gradient(#C0392B 0 26%, transparent 26%), linear-gradient(180deg, #F7EFDF 0 100%), #F7EFDF; background-image: linear-gradient(#C0392B 0 22%, transparent 22%), repeating-linear-gradient(90deg, #EADFC8 0 26px, #F5EDDC 26px 52px);"></div>
+      <div style="aspect-ratio: 1/1; border-radius: 4px; background: radial-gradient(circle at 34% 38%, #8A4B2A 0 13%, transparent 13.5%), radial-gradient(circle at 64% 56%, #6B3A22 0 15%, transparent 15.5%), radial-gradient(circle at 40% 70%, #A9622F 0 11%, transparent 11.5%), #F0E2C8;"></div>
+    </div>
+  </section>
+
+  <section id="hours" style="max-width: 1040px; margin: 0 auto; padding: 66px 20px;">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 36px;">
+      <div>
+        <h2 style="font-size: clamp(26px, 4vw, 38px); font-weight: 900; margin: 0 0 20px;">營業時間與位置</h2>
+        <div style="display: grid; gap: 14px; font-size: 16.5px; line-height: 1.8;">
+          <div><strong>營業時間</strong><br /><span style="color: #7A6A5C;">11:00–14:00、17:00–20:00（週日公休，賣完提早收）</span></div>
+          <div><strong>外帶訂餐</strong><br /><span style="color: #7A6A5C;">06-000-0000（尖峰時段請提前 30 分鐘來電）</span></div>
+          <div><strong>地址</strong><br /><span style="color: #7A6A5C;">台南市永康區中華路 000 號</span></div>
+          <div><strong>座位</strong><br /><span style="color: #7A6A5C;">約 24 席，可停機車，汽車請停對面停車場</span></div>
+        </div>
+      </div>
+      <div style="border-radius: 4px; min-height: 250px; position: relative; background-color: #F7EFDF; background-image: linear-gradient(90deg, #E9DAC0 2px, transparent 2px), linear-gradient(#E9DAC0 2px, transparent 2px), linear-gradient(62deg, transparent 47%, #E0CDAB 47% 53%, transparent 53%); background-size: 46px 46px, 46px 46px, 100% 100%;">
+        <div style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -100%); display: flex; flex-direction: column; align-items: center; gap: 6px;">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none"><path d="M12 22s7-6.4 7-12a7 7 0 10-14 0c0 5.6 7 12 7 12z" fill="#C0392B"></path><circle cx="12" cy="10" r="2.6" fill="#FFFCF5"></circle></svg>
+          <span style="font-size: 12.5px; font-weight: 900; color: #fff; background: #C0392B; padding: 3px 8px; border-radius: 3px;">阿姨家常麵館</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer style="background: #7A1F16; color: rgba(255,255,255,.7); padding: 34px 20px; text-align: center; font-size: 14px;">
+    阿姨家常麵館 ｜ 台南永康 ｜ 本頁為示範用虛構店家
+  </footer>
+</div>
+
+</x-dc>
+</body>
+</html>
