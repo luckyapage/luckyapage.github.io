@@ -1,0 +1,7 @@
+# 招牌YA — https://page.luckya.tw/
+# demo-*.html 是虛構店家的示範頁，這裡「不」擋抓取：
+# 要讓爬蟲讀得到頁內的 noindex，才會真的把它們排除在索引外。
+User-agent: *
+Allow: /
+
+Sitemap: https://page.luckya.tw/sitemap.xml

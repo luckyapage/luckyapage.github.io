@@ -4,9 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>招牌YA ｜ 小店一頁式官網 NT$3,000，3~5 個工作天上線</title>
-<meta name="description" content="給咖啡廳、小餐館、美甲美睫、寵物美容、健身工作室、補習班的一頁式介紹型官網。NT$3,000 含設計與架設上線，3~5 個工作天交件，終生免維護、無月費。">
+<title>做官網、行銷頁面｜一頁式官網 NT$3,000，3~5 天上線｜招牌YA</title>
+<meta name="description" content="想做官網或行銷頁面，卻被報價兩萬起跳勸退？招牌YA 用 AI 幫小店做一頁式官網，NT$3,000 含設計、架設、上線，3~5 個工作天交件，終生免維護、沒有月費。">
 <meta name="theme-color" content="#17130D">
+
+<!-- 這頁是唯一要被 Google 收錄的頁面（demo-*.html 都掛了 noindex）。
+     max-image-preview:large 讓搜尋結果能出大張縮圖。 -->
+<link rel="canonical" href="https://page.luckya.tw/">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
 
 <!-- 字型自架在 assets/fonts/，@font-face 寫在 site.css 第 0 節。
      這裡先搶下第一屏最吃重的兩個字重，其餘由 site.css 觸發載入。 -->
@@ -83,13 +88,22 @@ img{max-width:100%}
 
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='10' fill='%2317130D'/%3E%3Cpath d='M5 8h14l9 9v24a2 2 0 01-2 2H7a2 2 0 01-2-2z' fill='%23F0A81E'/%3E%3Cg transform='translate(22 9) scale(1.05)'%3E%3Cpath d='M4.6 1.2A2.4 2.4 0 019.4 0.8L11.4 14.5L14.9 3.4A2.2 2.2 0 0119.1 4.6L15.6 18L18 20.5L17.5 32L6.5 32L5 25.5C2.5 25 0.8 23.5 1.5 21.5C2.2 19.8 3.6 19.2 4.8 19L5.2 17Z' fill='%2317130D' stroke='%2317130D' stroke-width='4'/%3E%3Cpath d='M4.6 1.2A2.4 2.4 0 019.4 0.8L11.4 14.5L14.9 3.4A2.2 2.2 0 0119.1 4.6L15.6 18L18 20.5L17.5 32L6.5 32L5 25.5C2.5 25 0.8 23.5 1.5 21.5C2.2 19.8 3.6 19.2 4.8 19L5.2 17Z' fill='%23F0A81E'/%3E%3C/g%3E%3C/svg%3E">
 
-<!-- 分享預覽。上線網址確定後，請補上 og:url、og:image 與 canonical。 -->
+<!-- 分享預覽（LINE／FB／X）。og:image 是 assets/og.png，1200x630。
+     換網址時，這一區的 4 個絕對網址與上面的 canonical 要一起改。 -->
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="招牌YA">
 <meta property="og:locale" content="zh_TW">
-<meta property="og:title" content="招牌YA ｜ 小店一頁式官網 NT$3,000">
-<meta property="og:description" content="一頁式介紹型官網，NT$3,000 含架設上線，3~5 個工作天交件，終生免維護。">
+<meta property="og:url" content="https://page.luckya.tw/">
+<meta property="og:title" content="做官網、行銷頁面｜一頁式官網 NT$3,000，3~5 天上線">
+<meta property="og:description" content="用 AI 幫小店做一頁式官網／行銷頁面。NT$3,000 含設計、架設、上線，3~5 個工作天交件，終生免維護、沒有月費。">
+<meta property="og:image" content="https://page.luckya.tw/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="招牌YA：一頁式官網 NT$3,000，3~5 個工作天上線">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="做官網、行銷頁面｜一頁式官網 NT$3,000，3~5 天上線">
+<meta name="twitter:description" content="用 AI 幫小店做一頁式官網／行銷頁面。NT$3,000 含設計、架設、上線，3~5 個工作天交件。">
+<meta name="twitter:image" content="https://page.luckya.tw/assets/og.png">
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-6S6NP6RB4K"></script>
@@ -99,6 +113,162 @@ img{max-width:100%}
   gtag('js', new Date());
 
   gtag('config', 'G-6S6NP6RB4K');
+</script>
+
+<!-- 結構化資料：讓 Google 與 AI 搜尋讀懂「這是誰、賣什麼、多少錢」。
+     FAQ 是從下方 <details> 區塊抓出來的，改動 FAQ 文字時這裡要一起改。 -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://page.luckya.tw/#org",
+      "name": "招牌YA",
+      "alternateName": "LuckYa Page",
+      "url": "https://page.luckya.tw/",
+      "email": "LuckYa.Page@gmail.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://page.luckya.tw/assets/og.png"
+      },
+      "sameAs": [
+        "https://line.me/R/ti/p/@083scjjc"
+      ],
+      "areaServed": {
+        "@type": "Country",
+        "name": "台灣"
+      },
+      "description": "為小型店家製作一頁式官網與行銷頁面，NT$3,000 含設計、架設與上線。"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://page.luckya.tw/#website",
+      "url": "https://page.luckya.tw/",
+      "name": "招牌YA",
+      "inLanguage": "zh-Hant-TW",
+      "publisher": {
+        "@id": "https://page.luckya.tw/#org"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://page.luckya.tw/#webpage",
+      "url": "https://page.luckya.tw/",
+      "name": "做官網、行銷頁面｜一頁式官網 NT$3,000，3~5 天上線｜招牌YA",
+      "isPartOf": {
+        "@id": "https://page.luckya.tw/#website"
+      },
+      "about": {
+        "@id": "https://page.luckya.tw/#service"
+      },
+      "inLanguage": "zh-Hant-TW",
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://page.luckya.tw/assets/og.png"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://page.luckya.tw/#service",
+      "name": "一頁式官網／行銷頁面製作",
+      "serviceType": "網頁設計",
+      "provider": {
+        "@id": "https://page.luckya.tw/#org"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "台灣"
+      },
+      "audience": {
+        "@type": "BusinessAudience",
+        "name": "咖啡廳、小餐館、美甲美睫、寵物美容、健身工作室、補習班等小型店家"
+      },
+      "description": "用 AI 協作製作一頁式介紹型官網或行銷頁面，含 5~8 個 section、RWD、基本 SEO 設定、Google 地圖嵌入與協助上線，3~5 個工作天交件，交件後終生免維護、無月費。",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://page.luckya.tw/",
+        "price": "3000",
+        "priceCurrency": "TWD",
+        "availability": "https://schema.org/InStock",
+        "category": "一次性費用，不含網域",
+        "seller": {
+          "@id": "https://page.luckya.tw/#org"
+        }
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://page.luckya.tw/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "這跟行銷頁面、銷售頁一樣嗎？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "都是一頁到底，差別在目的。行銷頁面多半為了單一檔期衝轉換，內容一季換一次；我做的是介紹型官網，放的是不太會變的東西——你是誰、賣什麼、在哪裡、怎麼找你，所以才能終生免維護。你要的如果是活動用的行銷頁面，一樣做得了，跟我說檔期和想衝的目標就好。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "我需要準備什麼資料？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "店名、地址、營業時間、聯絡方式（LINE／電話／IG），加上 5~10 張照片，還有你最想讓客人知道的三件事。手機拍的照片也可以，我會挑。沒想好文案沒關係，我幫你寫。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "3,000 元真的沒有其他費用嗎？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "設計、架設、上線、主機，這些都在 3,000 元裡，之後不會再跟你收月費。唯一可能另外花錢的是兩件事：你想買專屬網域，或交件之後想再改內容。這兩項都會先報價，你同意再做。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "一定要買網域嗎？不買會怎樣？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "不用。不買網域的話，會使用 GitHub Pages 提供的免費網址，長得像 你的店名.github.io，功能完全一樣、一樣穩定，貼在 IG 也很正常。差別只在網址比較長、比較不像品牌。之後想買再換也可以。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "網域大概多少錢？可以幫我處理嗎？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "市面上 .com 大約一年幾百元到一千多元，.tw 略高一些，實際依你想要的名字而定。可以代辦，我會先幫你查名字、報實際費用，設定好指向你的網站。網域會登記在你自己的名下。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "可以改幾次？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "交件前包含兩次修改，文字、順序、顏色、換照片都算。因為是 AI 協作，改動通常當天就能給你看新版本，不用等一週。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "之後想加內容或改文字怎麼辦？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "交件之後的修改屬於另計服務：改文字、換照片這類小調整費用很低，新增一整個 section 則另外報價。你不改，就永遠不用付錢——網站會自己一直在那裡。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "真的不用維護嗎？為什麼別人都要收月費？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "因為多數網站是用有後台的系統做的（例如 WordPress），有後台就有外掛、有資料庫、有版本要更新，也真的會被駭，所以要收月費來照顧它。你的網站沒有這些東西——就像一面掛好的招牌，不會壞、也不用天天餵它。"
+          }
+        }
+      ]
+    }
+  ]
+}
 </script>
 </head>
 
@@ -143,7 +313,7 @@ img{max-width:100%}
     </div>
     <h1 class="anim-up d1">你的店，在網路上<br>的那面<span class="accent">招牌</span>。</h1>
     <p class="hero-lead anim-up d2">
-      一頁式介紹型官網，<strong>一頁 3,000 元</strong>，含架設上線。<br>掛上去就一直亮著：AI 幫你設計，下單後 <strong>3~5 個工作天交貨</strong>，之後<strong>終生免維護</strong>。
+      一頁式<strong>官網／行銷頁面</strong>，一頁 <strong>3,000 元</strong>，含架設上線。<br>掛上去就一直亮著：AI 幫你設計，下單後 <strong>3~5 個工作天交貨</strong>，之後<strong>終生免維護</strong>。
     </p>
     <div class="hero-actions anim-up d3">
       <a class="btn btn--md" href="https://line.me/R/ti/p/@083scjjc">立即詢問 ／ 加 LINE</a>
@@ -468,6 +638,10 @@ img{max-width:100%}
       <h2 class="h2">老闆最常問我的幾件事。</h2>
     </div>
     <div class="faq" data-reveal>
+      <details>
+        <summary>這跟行銷頁面、銷售頁一樣嗎？<span class="faq-plus">+</span></summary>
+        <p>都是一頁到底，差別在目的。<strong>行銷頁面</strong>多半為了單一檔期衝轉換，內容一季換一次；我做的是<strong>介紹型官網</strong>，放的是不太會變的東西——你是誰、賣什麼、在哪裡、怎麼找你，所以才能終生免維護。你要的如果是活動用的行銷頁面，一樣做得了，跟我說檔期和想衝的目標就好。</p>
+      </details>
       <details>
         <summary>我需要準備什麼資料？<span class="faq-plus">+</span></summary>
         <p>店名、地址、營業時間、聯絡方式（LINE／電話／IG），加上 <strong>5~10 張照片</strong>，還有你最想讓客人知道的三件事。手機拍的照片也可以，我會挑。沒想好文案沒關係，我幫你寫。</p>
